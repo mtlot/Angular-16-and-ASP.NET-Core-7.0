@@ -41,9 +41,6 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
 
 
 builder.Services.AddScoped<IGroupRepository, GroupRepository>();
-//builder.Services.AddTransient<TransactionAPI.IGroupRepository, GroupRepository>();
-//builder.Services.AddScoped<GroupService>();
-
 
 
 // JWT Configuration
