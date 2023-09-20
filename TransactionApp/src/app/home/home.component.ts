@@ -24,9 +24,7 @@ export class HomeComponent implements OnInit {
   }
 
   async ngOnInit() {
-    /*this.isAuthenticated = await this.auth.isAuthenticated();
-    await this.auth.getUser().subscribe(data => this.user = data);
-  */}
+    }
 
   logout(){
     this.auth.signOut();
