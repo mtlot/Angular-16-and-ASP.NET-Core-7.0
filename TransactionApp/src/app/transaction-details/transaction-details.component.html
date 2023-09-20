@@ -1,0 +1,75 @@
+
+  
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6"  href="#">Hello <h3></h3></a>
+    
+      <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <input class="form-control form-control-dark w-100 rounded-0 border-0" type="text" placeholder="Search" aria-label="Search"
+      [(ngModel)]="searchTerm"
+      (keyup)="filterList()">
+          <div class="nav-item text-nowrap">
+              <a style="background: red;
+              color: #fff;
+              border-radius: 4px;
+              margin: 10px;" class="nav-link px-3 cursor-pointer" (click)="logout()" >Sign out</a>
+          </div>
+   
+    </header>
+    
+    <div class="container-fluid">
+      <div class="row">
+
+       
+    
+              <h2></h2><br>
+              <div class="table-responsive">
+                <div class="content" role="main">
+        
+                  <div class="bg-body-secondary text-center py-5 rounded-2">
+                      <h1 class="dispay-6 fw-bold">Manage Transaction Details</h1>
+                    </div>
+                    <div class="row mt-5">
+                      <div class="col-6">
+                        <app-transaction-detail-form/>
+                      </div>
+                      <div class="col-6">
+                        <ul class="list-group"> 
+                          <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border px-4 py-3 rounded-3"
+                              *ngFor="let td of filteredList; let i = index">
+                              <div>{{i+1}}</div>
+                              <div class="flex-grow-1 mouse-hover" (click)="populateForm(td)">
+                                  <div class="fw-bold">{{td.deeD_OWNER_NAME}}</div>
+                                  <div class="fw-bold">{{td.deeD_INO}}</div>
+                                  <div class="fw-bold">{{td.loG_CREATED_TS}}</div>
+                              </div>
+                              <div class="fw-bold">{{td.loT_NO}}</div>
+                      
+                              <span class="text-secondary">
+                                  <i class="fa-solid fa-trash-can fa-lg mouse-hover" (click)="onDelete(td.transactionDetailId)"></i>
+                              </span>
+                          </li>
+                      </ul>
+                      
+                       </div>
+                      </div>
+                  
+              
+            </div>
+      
+                  
+              </div>
+
+      </div>
+    </div>
+    
+ 
+
+  
+
+
+     
+
+
+

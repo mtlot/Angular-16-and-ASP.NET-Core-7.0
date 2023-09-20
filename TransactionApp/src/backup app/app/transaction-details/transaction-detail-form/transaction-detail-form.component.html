@@ -1,0 +1,69 @@
+<form #form="ngForm" (submit)="onSubmit(form)" [class.submitted]="service.formSubmitted" novalidate autocomplete="off">
+    <input type="hidden" name="transactionDetailId" [value]="service.formData.transactionDetailId">
+    <div class="mb-3 col-6">
+        <label>Allocation Txn Id</label>
+        <input class="form-control form-control-lg" placeholder="ALLOCATION TXN ID" #alloC_TXN_ID="ngModel" name="alloC_TXN_ID"
+          [(ngModel)]="service.formData.alloC_TXN_ID" required>
+      </div>
+    <div class="mb-3">
+        <label>Deed Owner Name</label>
+        <input class="form-control form-control-lg"
+         placeholder="NAME ON DEED" #deeD_OWNER_NAME="ngModel"
+          name="deeD_OWNER_NAME" [(ngModel)]="service.formData.deeD_OWNER_NAME" required>
+      </div>
+      <div class="mb-3 col-6">
+        <label>Deed Number</label>
+        <input class="form-control form-control-lg"
+         placeholder="11 DIGIT NUMBER" #deeD_INO="ngModel"
+          name="deeD_INO" [(ngModel)]="service.formData.deeD_INO" required minlength="11" maxlength="11">
+      </div>
+      <div class="row">
+        <div class="mb-3 col-6">
+          <label>Lot No</label>
+          <input class="form-control form-control-lg" placeholder="LOT NO" #loT_NO="ngModel"
+            name="loT_NO" [(ngModel)]="service.formData.loT_NO" required minlength="6" maxlength="6">
+        </div>
+        <div class="mb-3 col-8">
+          <label>Log Greated Ts</label>
+          <input class="form-control form-control-lg" placeholder="YY-MM-DD-HH-MM-SS" #loG_CREATED_TS="ngModel" name="loG_CREATED_TS"
+            [(ngModel)]="service.formData.loG_CREATED_TS" required minlength="7" maxlength="7">
+        </div>
+        <div class="mb-3 col-6">
+            <label>Deed Status</label>
+            <input class="form-control form-control-lg" placeholder="DEED STATUS" #deeD_STATUS="ngModel" name="deeD_STATUS"
+              [(ngModel)]="service.formData.deeD_STATUS" required minlength="10" maxlength="10">
+          </div>
+          <div class="mb-3 col-6">
+            <label>Conv Deed Abbreviation</label>
+            <input class="form-control form-control-lg" placeholder="CONV DEED ABBR" #deeD_STATUS="ngModel" name="conV_DEED_ABBREVIATION"
+              [(ngModel)]="service.formData.conV_DEED_ABBREVIATION" required>
+          </div>
+          <div class="mb-3 col-6">
+            <label>Conv Status</label>
+            <input class="form-control form-control-lg" placeholder="CONV STATUS" #conV_STATUS="ngModel" name="conV_STATUS"
+              [(ngModel)]="service.formData.conV_STATUS" required minlength="10" maxlength="10">
+          </div>
+          <div class="mb-3 col-6">
+            <label>Source Ref Abbreviation</label>
+            <input class="form-control form-control-lg" placeholder="SOURCE REF ABBR" #deeD_STATUS="ngModel" name="sourcE_REF_ABBREVIATION"
+              [(ngModel)]="service.formData.sourcE_REF_ABBREVIATION" required>
+          </div>
+          <div class="mb-3">
+            <label>Deed Type</label>
+            <input class="form-control form-control-lg" placeholder="DEED TYPE" #deeD_TYPE="ngModel" name="deeD_TYPE"
+              [(ngModel)]="service.formData.deeD_TYPE" required>
+          </div>
+          <div class="mb-3 col-7">
+            <label>Print Status</label>
+            <input class="form-control form-control-lg" placeholder="PRINT STATUS" #prinT_STATUS="ngModel" name="prinT_STATUS"
+              [(ngModel)]="service.formData.prinT_STATUS" required minlength="20" maxlength="20">
+          </div>
+
+      </div>
+      <div class="d-grid">
+        <button class="btn btn-lg btn-success" class="global-green-button" type="submit">
+          Submit
+        </button>
+      </div>
+    </form>
+ 

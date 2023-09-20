@@ -1,0 +1,48 @@
+<div class="toolbar" role="banner">
+    <button mat-button>Transaction Detail</button>
+    <button mat-button>Dashboard</button>
+
+    <!-- This fills the remaining space of the current row -->
+    <span class="fill-remaining-space"></span>
+
+    <button mat-button>Sign In</button>
+    <button mat-button>Sign Out</button>
+  
+
+  
+</div>
+
+      <div class="content" role="main">
+        
+            <div class="bg-body-secondary text-center py-5 rounded-2">
+                <h1 class="dispay-6 fw-bold">Transaction Detail Audit with Pipeline Progress Dashboard</h1>
+              </div>
+              <div class="row mt-5">
+                <div class="col-6">
+                  <app-transaction-detail-form/>
+                </div>
+                <div class="col-6">
+                    <ul class="list-group"> 
+                      <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border px-4 py-3 rounded-3"
+                      *ngFor="let td of service.list">
+                      <div class="flex-grow-1 mouse-hover" (click)="populateForm(td)">
+                          <div class="fw-bold">{{td.deeD_OWNER_NAME}}</div>
+                          <div class="fw-bold">{{td.deeD_INO}}</div>
+                          <div class="fw-bold">{{td.loG_CREATED_TS}}</div>
+                          </div>
+                          <div class="fw-bold">{{td.loT_NO}}</div>
+                       
+                          <span class="text-secondary">
+                              <i class="fa-solid fa-trash-can fa-lg mouse-hover" (click)="onDelete(td.transactionDetailId)"></i>
+                            </span>
+                      </li>
+                    </ul>
+                 </div>
+                </div>
+            
+        
+      </div>
+
+
+
+

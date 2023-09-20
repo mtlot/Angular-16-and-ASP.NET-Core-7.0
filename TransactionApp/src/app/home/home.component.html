@@ -1,0 +1,12 @@
+<div>
+  <h2>Welcome</h2>
+  <a mat-button color="primary" routerLink="/groups">Manage LIS Transaction Details</a>
+  <br/><br/>
+  <a mat-button color="primary" routerLink="/dashboard">Manage Users Dashboard Details</a>
+  <br/><br/>
+  <button mat-raised-button color="primary" (click)="logout()" id="logout">Logout</button>
+</div>
+<ng-template #login>
+  <p>Please log in to manage LIS Transaction Details.</p>
+  <button mat-raised-button color="primary" id="login">Login</button>
+</ng-template>
