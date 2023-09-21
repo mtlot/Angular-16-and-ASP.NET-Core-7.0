@@ -43,6 +43,8 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
 builder.Services.AddScoped<IGroupRepository, GroupRepository>();
 
 
+
+
 // JWT Configuration
 var secretKey = builder.Configuration.GetSection("JWTSettings:SecretKey").Value;
 var issuer = builder.Configuration.GetSection("JWTSettings:Issuer").Value;

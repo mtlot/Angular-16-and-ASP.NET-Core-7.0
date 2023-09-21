@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TransactionAPI",
+    "\\TransactionAPI\\TransactionAPI"
   ],
-  "SelectedNode": "\\TransactionApp",
+  "SelectedNode": "\\TransactionAPI\\TransactionAPI\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
