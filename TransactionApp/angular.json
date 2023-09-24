@@ -91,6 +91,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+            "options": {   
+              "host": "10.0.9.31",
+              "port": 4200
+            }, 
           "configurations": {
             "production": {
               "browserTarget": "TransactionApp:build:production"

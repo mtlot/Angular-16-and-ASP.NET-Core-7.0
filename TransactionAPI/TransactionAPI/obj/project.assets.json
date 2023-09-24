@@ -12000,11 +12000,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\Angular 16\\CRUD with Net Core API\\Projects\\TransactionAPI\\TransactionAPI\\TransactionAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\Angular 16\\CRUD with Net Core API\\Projects\\Angular-16-and-ASP.NET-Core-7.0\\TransactionAPI\\TransactionAPI\\TransactionAPI.csproj",
       "projectName": "TransactionAPI",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\Angular 16\\CRUD with Net Core API\\Projects\\TransactionAPI\\TransactionAPI\\TransactionAPI.csproj",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\Angular 16\\CRUD with Net Core API\\Projects\\Angular-16-and-ASP.NET-Core-7.0\\TransactionAPI\\TransactionAPI\\TransactionAPI.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\Angular 16\\CRUD with Net Core API\\Projects\\TransactionAPI\\TransactionAPI\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\repos\\Angular 16\\CRUD with Net Core API\\Projects\\Angular-16-and-ASP.NET-Core-7.0\\TransactionAPI\\TransactionAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

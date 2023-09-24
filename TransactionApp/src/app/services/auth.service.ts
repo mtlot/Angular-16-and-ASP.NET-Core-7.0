@@ -7,6 +7,9 @@ import { TokenApiModel } from '../models/token-api.model';
   providedIn: 'root'
 })
 export class AuthService {
+  loginObj() {
+    throw new Error('Method not implemented.');
+  }
   signI: any;
   getUser() {
     throw new Error('Method not implemented.');

@@ -28,8 +28,18 @@ namespace TransactionAPI.Repositories
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            var group = _context.Groups.FirstOrDefault(g => g.Id == id);
+            if (group != null)
+            {
+                _context.Groups.Remove(group);
+                _context.SaveChanges();
+            }
+            else
+            {
+                throw new ArgumentException($"Group with ID {id} not found");
+            }
         }
+
 
         public IEnumerable<Group> GetAll()
         {

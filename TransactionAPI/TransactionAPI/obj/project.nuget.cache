@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c6QOVvZyKC6PgKxu59YYh3rFT+cC+I4wNfyFoqnINlYpl6LQEreO9b0whbHWchQMlO7sSQcoFLvL4ExSIMmmOg==",
+  "dgSpecHash": "B6qW+BCeZ7addrz17QyavKgWhAjz3jKSELzwoqgF8baZ9uxpNAvJSdqyTudnvtJaeXSKbWPs2qcO6HcbE/IBlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\Angular 16\\CRUD with Net Core API\\Projects\\TransactionAPI\\TransactionAPI\\TransactionAPI.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\Angular 16\\CRUD with Net Core API\\Projects\\Angular-16-and-ASP.NET-Core-7.0\\TransactionAPI\\TransactionAPI\\TransactionAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
