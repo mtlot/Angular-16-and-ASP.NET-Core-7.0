@@ -1,6 +1,5 @@
 # Angular-16-and-ASP.NET-Core-7.0
 
-
 Review Portfolio Project Doc
 
 References; 
@@ -22,5 +21,5 @@ References;
 - [x] Angular 14 Login and Signup Page | Bootstrap UI | Complete Authentication & Authorization 
   https://www.youtube.com/watch?v=R7s5I9H1H9s&list=PLc2Ziv7051bZhBeJlJaqq5lrQuVmBJL6A
   
-  C# Resume and Portfolio Review 
-- [x] https://m.youtube.com/watch?v=MjG1ooA2wvY
+- [x]  C# Portfolio Review 
+  https://m.youtube.com/watch?v=MjG1ooA2wvY
