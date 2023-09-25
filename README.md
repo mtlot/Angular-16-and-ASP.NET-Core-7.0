@@ -20,7 +20,7 @@ References;
 - [x] https://www.codaffection.com/asp-net-core-article/angular-crud-with-asp-net-core-web-api/
  
 - [x] Angular 14 Login and Signup Page | Bootstrap UI | Complete Authentication & Authorization 
-  https://www.youtube.com/watch?v=R7s5I9H1H9s&list=PLc2Ziv7051bZhBeJlJaqq5lrQuVmBJL6A
+      https://www.youtube.com/watch?v=R7s5I9H1H9s&list=PLc2Ziv7051bZhBeJlJaqq5lrQuVmBJL6A
   
-  C# Resume and Portfolio Review 
-- [x] https://m.youtube.com/watch?v=MjG1ooA2wvY
+- [x] C# Portfolio Review 
+      https://m.youtube.com/watch?v=MjG1ooA2wvY
