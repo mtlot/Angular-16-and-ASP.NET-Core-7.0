@@ -23,8 +23,6 @@ References;
   
 - [x]  C# Portfolio Review 
   https://m.youtube.com/watch?v=MjG1ooA2wvY
-- [x] Others: https://cis.bbent.com/Resources/
-      
-      https://www.youtube.com/dotnet
-      
+- [x] Others: https://cis.bbent.com/Resources/,
+      https://www.youtube.com/dotnet,
       https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-7.0
